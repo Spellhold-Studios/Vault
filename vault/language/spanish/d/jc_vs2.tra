@@ -25,10 +25,10 @@
 @22  = ~Lo entiendo. Y, ¿exáctamente dónde puedo ir?~
 @23  = ~La convocación del Centinela de la Bóveda se puede hacer con la llave.~
 @24  = ~¿Dónde preveéis que está vuestro ojo mental?~
-@25  = ~Esperad, ¿podéis explicarme lo de este portal del que habláis?~ GOTO 2VS2
+@25  = ~Esperad, ¿podéis explicarme lo de este portal del que habláis?~
 @26  = ~A cualquier parte, Maestro. Se puede pedir y recordar cualquier lugar de vuestra memoria en el que hayáis estado... ya sean islas lejanas, dominios antiguos, o grandes ciudades.~
-@27  = ~¿Cómo puedo volver de estos lugares de los que habláis?~ GOTO 2VS4
-@28  = ~Así que estoy limitado a los lugares que conozco y ya he ido... Centinela, ahora me gustaría viajar.~ GOTO 2VS5 ~Así que estoy limitada a los lugares que conozco y ya he ido... Centinela, ahora me gustaría viajar.~ GOTO 2VS5
+@27  = ~¿Cómo puedo volver de estos lugares de los que habláis?~
+@28  = ~Así que estoy limitado a los lugares que conozco y ya he ido... Centinela, ahora me gustaría viajar.~ ~Así que estoy limitada a los lugares que conozco y ya he ido... Centinela, ahora me gustaría viajar.~
 @29  = ~Como deseéis, Maestro. Solo necesito un puñado de oro o joyas para convocar el portal a la isla de los lobos.~
 @30  = ~Aquí tenéis 5000 monedas de oro. Ahora abrid el portal.~
 @31  = ~Tomad esta piedra del bribón. Coged esta valiosa piedra. Debería ser suficiente para abrir el portal.~
