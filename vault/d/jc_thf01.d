@@ -97,11 +97,11 @@ END
 
 IF ~Global("ReturnNashQuest","GLOBAL",2)~ THEN BEGIN 1THF15
   SAY @49
-  IF ~~ THEN REPLY @50 JOURNAL @51 DO ~ForceSpell(Myself,DRYAD_TELEPORT) CreateCreature("JC_THF03",[-1.-1],0) CreateCreature("JC_THF03",[-1.-1],0) CreateCreature("JC_THF03",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) SetGlobal("ReturnNashQuest","GLOBAL",3) DestroySelf()~ EXIT
+  IF ~~ THEN REPLY @50 JOURNAL @51 DO ~ForceSpell(Myself,DRYAD_TELEPORT) CreateCreature("JC_THF03",[-1.-1],0) CreateCreature("JC_THF03",[-1.-1],0) CreateCreature("JC_THF03",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) SetGlobal("ReturnNashQuest","GLOBAL",3) DestroySelf()~ EXIT
 END
 
 IF ~Global("ReturnNashQuest","GLOBAL",3) Global("ReturnNashQuestZernan","GLOBAL",2)~ THEN BEGIN 1THF16
   SAY @52
-  IF ~~ THEN REPLY @53 JOURNAL @54 DO ~ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY) ChangeEnemyAlly(Myself,EVILCUTOFF) Enemy() CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[-1.-1],0) ForceSpell(Myself,WIZARD_HASTE) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) SetGlobal("ReturnNashQuest","GLOBAL",4)~ EXIT
+  IF ~~ THEN REPLY @53 JOURNAL @54 DO ~ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY) ChangeEnemyAlly(Myself,EVILCUTOFF) Enemy() CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[-1.-1],0) ForceSpell(Myself,WIZARD_HASTE) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) SetGlobal("ReturnNashQuest","GLOBAL",4)~ EXIT
 END
 

@@ -1,6 +1,6 @@
 IF
 	Global("VestibuleQuest","GLOBAL",0)
-	GlobalGT("Chapter","GLOBAL",4)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
 THEN
 	RESPONSE #100
 		SetGlobal("VestibuleQuest","GLOBAL",1)

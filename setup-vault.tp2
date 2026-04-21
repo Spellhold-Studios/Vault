@@ -1,6 +1,6 @@
 	/*************************************************************************
 	*
- 	* The Vault (Modified for BGT Compatibility)
+ 	* The Vault
 	*
  	*************************************************************************/
 
@@ -8,48 +8,78 @@
 BACKUP ~vault/backup~  
 
 	// where should tell the user to send email if something goes wrong? 
-AUTHOR ~http://www.shsforums.net/topic/55129-the-vault-for-bgt-v72-released/~
+AUTHOR ~http://www.shsforums.net/user/29731-beleg33/~
 
-VERSION	~v7.2~
+VERSION	~v7.3~
 
 README ~vault/ReadMe-Vault.html~
 
-AUTO_TRA ~Vault/Language/%s/D~
+AUTO_TRA ~Vault/Language/%s/D~ //%~
 
-LANGUAGE	~English~
-		~english~
-		~Vault/Language/english/setup.tra~
+ALWAYS
+  ACTION_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+    ACTION_DEFINE_ASSOCIATIVE_ARRAY charsetsTable BEGIN
+      "english" => "CP1252"
+      "french" => "CP1252"
+      "italian" => "CP1252"
+      "russian" => "CP1251"
+	  "polish" => "CP1250"
+      "spanish" => "CP1252"
+    END
+    ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN Setup END
+    LAF ~HANDLE_CHARSETS~
+      INT_VAR
+      infer_charsets = 0
+      STR_VAR
+      tra_path = "Vault/Language"
+      iconv_path = "Vault/Language/iconv" //available as part of the base system on OS X and GNU/Linux
+      charset_table = charsetsTable
+      reload_array = charsetsReloadArray
+    END
+    LOAD_TRA ~Vault/Language/%LANGUAGE%/Setup-ee.tra~
+  END
+  ACTION_IF GAME_IS ~bgee~ BEGIN
+    INCLUDE ~Vault/lib/liam_bgee_vars.tpa~
+  END ELSE ACTION_IF GAME_IS ~bgt~ BEGIN
+    INCLUDE ~Vault/lib/g3_bgt_cpmvars.tpa~
+  END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
+    INCLUDE ~Vault/lib/eet_cpmvars.tpa~
+  END ELSE ACTION_IF GAME_IS ~tutu~ BEGIN
+    INCLUDE ~Vault/lib/g3_tutu_cpmvars.tpa~
+  END
+END
 
-LANGUAGE	~Francais (Traduit par les d'Oghmatiques))~
-		~french~
-		~Vault/Language/french/setup.tra~
-
-LANGUAGE	~Italian (translated by Ilot)~
-		~italian~
-		~Vault/Language/italian/setup.tra~
-
-LANGUAGE	~Espa¤ol (Traducido por Saemon de ClanDLAN.net, actualizado por Lisandro)~
-		~spanish~
-		~Vault/Language/spanish/setup.tra~
-		
-LANGUAGE	~Russian (translated by Silent and Aldark of arcanecoast.ru)~
-		~russian~
-		~Vault/Language/russian/setup.tra~ 
-
-
+LANGUAGE ~English~
+	~english~
+	~Vault/Language/english/setup.tra~
+LANGUAGE ~Francais (Traduit par les d'Oghmatiques))~
+	~french~
+	~Vault/Language/french/setup.tra~
+LANGUAGE ~Italian (translated by Ilot)~
+	~italian~
+	~Vault/Language/italian/setup.tra~
+LANGUAGE ~Espa¤ol (Traducido por Saemon de ClanDLAN.net, actualizado por Lisandro)~
+	~spanish~
+	~Vault/Language/spanish/setup.tra~
+LANGUAGE ~Russian (translated by Silent and Aldark of arcanecoast.ru)~
+	~russian~
+	~Vault/Language/russian/setup.tra~ 
+LANGUAGE ~Polski (Aristo)~
+	~polish~
+	~Vault/Language/polish/setup.tra~
 
 BEGIN @0 DESIGNATED 0
-REQUIRE_PREDICATE GAME_IS ~bgt~ @174
+REQUIRE_PREDICATE GAME_IS ~bgt bgee eet~ ~This mod is not compatible with your game~
 
 
 ///////////////////////////////////////////////////////////////////////////////
 //	D folder 				// compile new dialogs and extensions
 ///////////////////////////////////////////////////////////////////////////////
 
-		COMPILE	~vault/D~
+		COMPILE EVAL ~vault/D~
 /* ACTION_IF FILE_EXISTS_IN_GAME ~X#BG1NPCCore.G3~
 	THEN BEGIN
-		COMPILE ~vault/D/BG1NPC~
+		COMPILE EVAL ~vault/D/BG1NPC~
 END */
 
 ///////////////////////////////////////////////////////////////
@@ -69,8 +99,8 @@ END */
 /* 
 // Deprecated - Area replaced with a new one already patched
 
-//adding 2 new proximity triggers and 8 new vertices for them to ARA101.ARE
-COPY_EXISTING ~ARA101.ARE~  ~override~
+//adding 2 new proximity triggers and 8 new vertices for them to %ArchaeologicalSite_Tomb%.ARE
+COPY_EXISTING ~%ArchaeologicalSite_Tomb%.ARE~  ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -293,10 +323,10 @@ COPY_EXISTING ~ARA101.ARE~  ~override~
      WRITE_LONG  0xc4  "%automap_offset%"
    END
 
-BUT_ONLY_IF_IT_CHANGES  // ~ARA101.are~ */
+BUT_ONLY_IF_IT_CHANGES  // ~%ArchaeologicalSite_Tomb%.are~ */
 
-//Add 4 new proximity triggers and 16 new vertices for those triggers to AR4401.ARE
-COPY_EXISTING ~AR4401.ARE~  ~override~
+//Add 4 new proximity triggers and 16 new vertices for those triggers to %NashkelMines_L1%.ARE
+COPY_EXISTING ~%NashkelMines_L1%.ARE~  ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -577,10 +607,10 @@ COPY_EXISTING ~AR4401.ARE~  ~override~
      WRITE_LONG  0xc4  "%automap_offset%"
    END
 
-BUT_ONLY_IF_IT_CHANGES  //********************************************************  ~AR4401.are~
+BUT_ONLY_IF_IT_CHANGES  //********************************************************  ~%NashkelMines_L1%.are~
 
-//Add 6 new proximity triggers and 24 new vertices for those triggers to AR4402.ARE
-COPY_EXISTING ~AR4402.ARE~  ~override~
+//Add 6 new proximity triggers and 24 new vertices for those triggers to %NashkelMines_L2%.ARE
+COPY_EXISTING ~%NashkelMines_L2%.ARE~  ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -919,10 +949,10 @@ COPY_EXISTING ~AR4402.ARE~  ~override~
      WRITE_LONG  0xc4  "%automap_offset%"
    END
 
-BUT_ONLY_IF_IT_CHANGES  //********************************************************  ~AR4402.are~
+BUT_ONLY_IF_IT_CHANGES  //********************************************************  ~%NashkelMines_L2%.are~
 
-// Add 7 new proximity triggers and 28 new vertices for those triggers to AR4403.ARE
-COPY_EXISTING ~AR4403.ARE~  ~override~
+// Add 7 new proximity triggers and 28 new vertices for those triggers to %NashkelMines_L3%.ARE
+COPY_EXISTING ~%NashkelMines_L3%.ARE~  ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -1290,7 +1320,7 @@ COPY_EXISTING ~AR4403.ARE~  ~override~
      WRITE_LONG  0xc4  "%automap_offset%"
    END
 
-BUT_ONLY_IF_IT_CHANGES  // ~AR4403.are~
+BUT_ONLY_IF_IT_CHANGES  // ~%NashkelMines_L3%.are~
 
 
 //      BAM folder, bam files for custom items
@@ -1300,7 +1330,11 @@ COPY	~vault/bam~		~override~
 //      Scripts changes
 
 COPY_EXISTING ~CENTEOL.BCS~          ~override~
-  REPLACE_BCS_BLOCK ~vault/snip/ocenteol.baf~  ~vault/snip/ncenteol.baf~
+  PATCH_IF ENGINE_IS ~bgee bg2ee~ BEGIN
+    REPLACE_BCS_BLOCK ~vault/snip/ocenteol-ee.baf~  ~vault/snip/ncenteol.baf~
+  END ELSE BEGIN
+    REPLACE_BCS_BLOCK ~vault/snip/ocenteol.baf~  ~vault/snip/ncenteol.baf~
+  END
 BUT_ONLY_IF_IT_CHANGES
 
 COPY_EXISTING ~denak.BCS~          ~override~
@@ -1313,38 +1347,41 @@ EXTEND_BOTTOM ~wtasight.bcs~ ~vault/snip/jc_wt.baf~
 EXTEND_BOTTOM ~wtattkbe.bcs~ ~vault/snip/jc_wt.baf~
 EXTEND_BOTTOM ~wtattwat.bcs~ ~vault/snip/jc_wt.baf~
 EXTEND_BOTTOM ~wtholdbe.bcs~ ~vault/snip/jc_wt.baf~
-EXTEND_BOTTOM ~ar7300.bcs~ ~vault/snip/jc7300.baf~
-EXTEND_BOTTOM ~ard000.bcs~ ~vault/snip/jcd000.baf~
-EXTEND_BOTTOM ~ar7800.bcs~ ~vault/snip/jc7800.baf~
-EXTEND_BOTTOM ~ar7900.bcs~ ~vault/snip/jc7900.baf~
-EXTEND_BOTTOM ~aru008.bcs~ ~vault/snip/jcu008.baf~
-EXTEND_BOTTOM ~ar8600.bcs~ ~vault/snip/jc8600.baf~
-EXTEND_BOTTOM ~ar8700.bcs~ ~vault/snip/jc8700.baf~
-EXTEND_BOTTOM ~arw000.bcs~ ~vault/snip/jcw000.baf~
-EXTEND_BOTTOM ~ar6800.bcs~ ~vault/snip/jc6800.baf~
-EXTEND_BOTTOM ~ar6526.bcs~ ~vault/snip/jc6526.baf~
-EXTEND_BOTTOM ~ar6700.bcs~ ~vault/snip/jc6700.baf~
-EXTEND_BOTTOM ~ar3700.bcs~ ~vault/snip/jc3700.baf~
-EXTEND_BOTTOM ~ar3800.bcs~ ~vault/snip/jc3800.baf~
-EXTEND_BOTTOM ~ar4400.bcs~ ~vault/snip/jc4400.baf~
-EXTEND_TOP ~AR3499.BCS~ ~vault/snip/AR3499.BAF~
-EXTEND_TOP ~AR4401.BCS~ ~vault/snip/AR4401.BAF~
-EXTEND_TOP ~AR4402.BCS~ ~vault/snip/AR4402.BAF~
-EXTEND_TOP ~AR4403.BCS~ ~vault/snip/AR4403.BAF~
-EXTEND_TOP ~AR6513.BCS~ ~vault/snip/AR6513.BAF~
-EXTEND_TOP ~AR9100.BCS~ ~vault/snip/AR9100.BAF~
-EXTEND_TOP ~AR9301.BCS~ ~vault/snip/AR9301.BAF~
-EXTEND_TOP ~AR9798.BCS~ ~vault/snip/AR9798.BAF~
-EXTEND_TOP ~AR9900.BCS~ ~vault/snip/AR9900.BAF~
+EXTEND_BOTTOM ~%NBaldursGate_BCS%.bcs~ ~vault/snip/jc7300.baf~
+EXTEND_BOTTOM ~%DurlagsTower_BCS%.bcs~ ~vault/snip/jcd000.baf~
+EXTEND_BOTTOM ~%EBaldursGate_BCS%.bcs~ ~vault/snip/jc7800.baf~
+EXTEND_BOTTOM ~%WyrmsCrossing_BCS%.bcs~ ~vault/snip/jc7900.baf~
+EXTEND_BOTTOM ~%IceIsland_BCS%.bcs~ ~vault/snip/jcu008.baf~
+EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~vault/snip/jc8600.baf~
+EXTEND_BOTTOM ~%BanditCamp_BCS%.bcs~ ~vault/snip/jc8700.baf~
+EXTEND_BOTTOM ~%IsleofBalduranS_BCS%.bcs~ ~vault/snip/jcw000.baf~
+EXTEND_BOTTOM ~%FriendlyArmInn_BCS%.bcs~ ~vault/snip/jc6800.baf~
+EXTEND_BOTTOM ~%Candlekeep_Ch6_BCS%.bcs~ ~vault/snip/jc6526.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~%Beregost_BCS%.bcs~ ~vault/snip/jc6700.baf~
+EXTEND_BOTTOM ~%Nashkel_BCS%.bcs~ ~vault/snip/jc3700.baf~
+EXTEND_BOTTOM ~%NashkelCarnival_BCS%.bcs~ ~vault/snip/jc3800.baf~
+EXTEND_BOTTOM ~%NashkelMines_BCS%.bcs~ ~vault/snip/jc4400.baf~
+EXTEND_TOP ~%BearRiver_BCS%.BCS~ ~vault/snip/AR3499.BAF~
+EXTEND_TOP ~%NashkelMines_L1_BCS%.BCS~ ~vault/snip/AR4401.BAF~
+EXTEND_TOP ~%NashkelMines_L2_BCS%.BCS~ ~vault/snip/AR4402.BAF~
+EXTEND_TOP ~%NashkelMines_L3_BCS%.BCS~ ~vault/snip/AR4403.BAF~
+EXTEND_TOP ~%Candlekeep_Catacombs_L1Antechamber_BCS%.BCS~ ~vault/snip/AR6513.BAF~
+EXTEND_TOP ~%SpiderWood_BCS%.BCS~ ~vault/snip/AR9100.BAF~
+EXTEND_TOP ~%Temple_Vestibule_BCS%.BCS~ ~vault/snip/AR9301.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~%UlcasterRuins_BCS%.BCS~ ~vault/snip/AR9798.BAF~
+EXTEND_TOP ~%Gullykin_BCS%.BCS~ ~vault/snip/AR9900.BAF~
 EXTEND_BOTTOM ~baldur.bcs~ ~vault/snip/drowdisint.baf~
 
 //      New Area
 
 COPY ~vault/ARE~ ~override~
+COPY_EXISTING ~Vault/ARE/VT0001.WED~ ~override~
+	WRITE_ASCIIE 0x24 ~%ArchaeologicalSite_Tomb%~ #8
+BUT_ONLY
 
 //      New scripts
 
-COMPILE ~vault/BAF~
+COMPILE EVAL ~vault/BAF~
 
 
 //	Patching/adding creatures

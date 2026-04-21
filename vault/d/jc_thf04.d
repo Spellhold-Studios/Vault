@@ -1,6 +1,6 @@
 BEGIN ~JC_THF04~
 
-IF ~Global("ReturnNashQuest","GLOBAL",5) Global("Chapter","GLOBAL",7)~ THEN BEGIN 4THF00
+IF ~Global("ReturnNashQuest","GLOBAL",5) Global("Chapter","GLOBAL",%tutu_chapter_6%)~ THEN BEGIN 4THF00
   SAY @0
   IF ~~ THEN REPLY @1 GOTO 4THF01
   IF ~~ THEN REPLY @2 GOTO 4THF01
@@ -38,7 +38,7 @@ END
 IF ~~ THEN BEGIN 4THF06
   SAY @17
   IF ~~ THEN REPLY @18 JOURNAL @19 DO ~ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY) ChangeEnemyAlly(Myself,EVILCUTOFF)
-Enemy() CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("JC_THF03",[4740.2915],0) CreateCreature("JC_THF03",[4740.2915],0)
+Enemy() CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("JC_THF03",[4740.2915],0) CreateCreature("JC_THF03",[4740.2915],0)
 SetGlobal("ReturnNashQuest","GLOBAL",99)~ EXIT
 END
 
@@ -71,5 +71,5 @@ END
 
 IF ~~ THEN BEGIN 4THF12
   SAY @32
-  IF ~~ THEN DO ~ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY) ChangeEnemyAlly(Myself,EVILCUTOFF) Enemy() CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("BGSTALKE",[-1.-1],0) CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[820.630],0) SetGlobal("ReturnNashQuestNandin","GLOBAL",4)~ JOURNAL @33 EXIT
+  IF ~~ THEN DO ~ForceSpell(Myself,WIZARD_IMPROVED_INVISIBILITY) ChangeEnemyAlly(Myself,EVILCUTOFF) Enemy() CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("GOLSTO01",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("%tutu_scriptbg%STALKE%eet_var%",[-1.-1],0) CreateCreature("JC_THF03",[820.630],0) CreateCreature("JC_THF03",[820.630],0) SetGlobal("ReturnNashQuestNandin","GLOBAL",4)~ JOURNAL @33 EXIT
 END

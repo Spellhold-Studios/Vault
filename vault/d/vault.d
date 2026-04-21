@@ -138,7 +138,7 @@ IF ~Global("VestibuleQuest","GLOBAL",5) Global("VestibuleBran","GLOBAL",3)~ THEN
 END
 
 
-ALTER_TRANS DELTAN BEGIN 10 11 END BEGIN 0 END BEGIN ~ACTION~ ~GiveGoldForce(2000) SetGlobal("HelpEltan","GLOBAL",2) GiveItem("BOOK68",LastTalkedToBy) AddexperienceParty(4000) IncrementChapter("Chptxt-6") AddJournalEntry(@38,INFO) ActionOverride(Player1,LeaveAreaLUAPanic("AR7900","",[4295.3415],0)) ActionOverride(Player1,LeaveAreaLUA("AR7900","",[4295.3415],0)) ActionOverride(Player2,LeaveAreaLUA("AR7900","",[4295.3415],0)) ActionOverride(Player3,LeaveAreaLUA("AR7900","",[4295.3415],0)) ActionOverride(Player4,LeaveAreaLUA("AR7900","",[4295.3415],0)) ActionOverride(Player5,LeaveAreaLUA("AR7900","",[4295.3415],0)) ActionOverride(Player6,LeaveAreaLUA("AR7900","",[4295.3415],0)) DestroySelf()~ END
+ALTER_TRANS DELTAN BEGIN 10 11 END BEGIN 0 END BEGIN ~ACTION~ ~GiveGoldForce(2000) SetGlobal("HelpEltan","GLOBAL",2) GiveItem("BOOK68",LastTalkedToBy) AddexperienceParty(4000) IncrementChapter("%CHPTXT6%") AddJournalEntry(@38,INFO) ActionOverride(Player1,LeaveAreaLUAPanic("%WyrmsCrossing%","",[4295.3415],0)) ActionOverride(Player1,LeaveAreaLUA("%WyrmsCrossing%","",[4295.3415],0)) ActionOverride(Player2,LeaveAreaLUA("%WyrmsCrossing%","",[4295.3415],0)) ActionOverride(Player3,LeaveAreaLUA("%WyrmsCrossing%","",[4295.3415],0)) ActionOverride(Player4,LeaveAreaLUA("%WyrmsCrossing%","",[4295.3415],0)) ActionOverride(Player5,LeaveAreaLUA("%WyrmsCrossing%","",[4295.3415],0)) ActionOverride(Player6,LeaveAreaLUA("%WyrmsCrossing%","",[4295.3415],0)) DestroySelf()~ END
 
 
 APPEND ~GANDOL~
@@ -486,7 +486,7 @@ ADD_TRANS_ACTION DOOMSAY BEGIN 1 2 3 END BEGIN 0 END ~CreateCreature("DOOMGU",[2
 
 
 EXTEND_BOTTOM KEEPER 1
-  IF ~Global("Chapter","GLOBAL",7) PartyHasItem("BOOKDRW")~ THEN REPLY @154 DO ~TakePartyItem("BOOKDRW")~ GOTO 4 END
+  IF ~Global("Chapter","GLOBAL",%tutu_chapter_6%) PartyHasItem("BOOKDRW")~ THEN REPLY @154 DO ~TakePartyItem("BOOKDRW")~ GOTO 4 END
 ALTER_TRANS KEEPER BEGIN 1 END BEGIN 2 END BEGIN ~TRIGGER~ ~!PartyHasItem("BOOK68") !PartyHasItem("BOOKDRW")~ END
 
 
@@ -517,7 +517,7 @@ IF ~~ THEN BEGIN VLT66
   IF ~Global("PriestGondVault","GLOBAL",1)~ THEN DO ~~ EXIT END
 END
 
-REPLACE_TRANS_ACTION BGKNIGHT BEGIN 1 END BEGIN 0 END ~TakePartyItem("MISC82")~ ~~
+REPLACE_TRANS_ACTION %tutu_scriptbg%KNIGHT%eet_var% BEGIN 1 END BEGIN 0 END ~TakePartyItem("MISC82")~ ~~
 
 SET_WEIGHT ULCAST 3 #8
 SET_WEIGHT ULCAST 6 #7
