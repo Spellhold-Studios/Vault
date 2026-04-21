@@ -1,29 +1,27 @@
-// Vault .tp2 translation file
-
-@0   = ~The Vault v7 (modificado por erebusant para compatibilidad con BGT)~
+@0   = ~The Vault v7 (modificado por erebusant para compatibilidad con BGT)~ 
 @1   = ~Gólem de piedra~
-@2   = ~Josh~
+@2   = ~Josh~ 
 @3   = ~Ranthis~
-@4   = ~Lestraubimat~
+@4   = ~Lestraubimat~ 
 @5   = ~Sierpe de fuego~
 @6   = ~Guerrero drow~
-@7   = ~Acechador drow~
+@7   = ~Acechador drow~ 
 @8   = ~Mago drow~
-@9   = ~Adiestrador de arañas drow~
+@9   = ~Adiestrador de arañas drow~ 
 @10  = ~Ejecutor drow~
 @11  = ~Suma sacerdotisa drow~
-@12  = ~Redentor~
+@12  = ~Redentor~ 
 @13  = ~Kharaz~
-@14  = ~Ogro de la tribu de Kharaz~
+@14  = ~Ogro de la tribu de Kharaz~ 
 @15  = ~Ogro enloquecido~
 @16  = ~Guarda esqueleto~
 @17  = ~Zernan~
-@18  = ~Hombre misterioso~
+@18  = ~Hombre misterioso~ 
 @19  = ~Ladrón~
-@20  = ~Nandin~
-@21  = ~Guardián~
+@20  = ~Nandin~ 
+@21  = ~Guardián~ 
 @22  = ~Vampiro de la Bóveda~
-@23  = ~Centinela de la Bóveda~
+@23  = ~Centinela de la Bóveda~ 
 @24  = ~Lobo-hombre mayor~
 @25  = ~Narrador~
 @26  = ~Vestíbulo~
@@ -212,7 +210,7 @@ La escritura de este texto es completamente imposible de descifrar y resiste cua
 ESTADÍSTICAS:
 
 Peso: 4~
-@61  = ~No se sabe mucho sobre estas botas mágicas salvo que provienen de las regiones norteñas de Faerun conocidas como el Espinazo del Mundo. Se dice que las consiguió un valiente grupo de aventureros que viajaba por las traicioneras montañas en una misión para destruir un gran mal.
+@61  = ~No se sabe mucho sobre estas botas mágicas salvo que provienen de las regiones norteñas de Faerûn conocidas como el Espinazo del Mundo. Se dice que las consiguió un valiente grupo de aventureros que viajaba por las traicioneras montañas en una misión para destruir un gran mal.
 
 ESTADÍSTICAS:
 
@@ -396,7 +394,7 @@ Peso: 25
 No permitido a:~
 @90  = ~Mallas de la Infraoscuridad +1~
 @91  = ~Mallas de la Infraoscuridad +1
-Esta cota de mallas élfica está hecha de ilitio, un mineral extraño que sólo se encuentra en los recovecos más profundos de Faerun, y como tal, irradia un fuerte alquimo. Las complejas runas que se han grabado en la superficie de la armadura indican que fue diseñada para sacerdotisas drow, ya que permite establecer un mayor contacto con los dioses y los semidioses de los reinos a quien la viste. Aunque esto pueda ser respetado en la Infraoscuridad, es repugnante a los ojos de los habitantes de la superficie, por lo que su portador sufrirá sus consecuencias.
+Esta cota de mallas élfica está hecha de ilitio, un mineral extraño que sólo se encuentra en los recovecos más profundos de Faerûn, y como tal, irradia un fuerte alquimo. Las complejas runas que se han grabado en la superficie de la armadura indican que fue diseñada para sacerdotisas drow, ya que permite establecer un mayor contacto con los dioses y los semidioses de los reinos a quien la viste. Aunque esto pueda ser respetado en la Infraoscuridad, es repugnante a los ojos de los habitantes de la superficie, por lo que su portador sufrirá sus consecuencias.
 
 ESTADÍSTICAS:
 
@@ -468,7 +466,7 @@ Permitido a:
 @100 = ~Casco de defensa~
 @101 = ~Casco de defensa: 'El Obsequio de la Paz'
 Muy apreciado por su origen noble, así como por los beneficios que otorga a su portador, este yelmo fue en principio un simple regalo. No había momentos de crisis ni males peligrosos a los que enfrentarse. Sencillamente, fue el deseo de un amigo de ofrecer un obsequio a su compañero. Lo mismo podría haber sido un buen libro que una botella de vino, aunque cabría decir que los aventureros son muy prácticos a la hora de ofrecer un obsequio. El yelmo ha sido testigo de numerosos y grandiosos combates desde su creación, pero siempre se recordará por la virtud que rodea esta historia.
-Taerom Fuiruim ha mejorado las propiedades de este yelmo, que ahora concede una protección mayor a su portador.
+Taerom "Martillo Atronador" ha mejorado las propiedades de este yelmo, que ahora concede una protección mayor a su portador.
 
 ESTADÍSTICAS:
 
@@ -487,7 +485,7 @@ No permitido a:
 @102 = ~Casco de infravisión~
 @103 = ~Casco de infravisión: 'Los Ojos de la Verdad'
 Babette Maelestrom, una especie de carroñera, hizo que le fabricaran este yelmo para ayudarse en sus incursiones bajo tierra. Después, ella atribuiría su riqueza adquirida únicamente al poder del yelmo, aunque cabría señalar que más que nada se debía a su aguda visión.
-Taerom Fuiruim ha mejorado las propiedades de este yelmo, que ahora concede una protección mayor a su portador.
+Taerom "Martillo Atronador" ha mejorado las propiedades de este yelmo, que ahora concede una protección mayor a su portador.
 
 ESTADÍSTICAS:
 
@@ -503,7 +501,7 @@ No permitido a:
 @104 = ~Casco de protección contra hechizos~
 @105 = ~Casco de protección contra hechizos: 'El Imparcial'
 Como sugiere su nombre, el casco de protección contra hechizos protege al que lo lleva de cualquier intento mágico de manipulación emocional. Como precaución, algunos grupos de mercenarios de alto nivel equipan regularmente a sus miembros con cascos como éste, de modo que puedan cumplir con sus obligaciones sin interferencia del exterior.
-Taerom Fuiruim ha mejorado las propiedades de este yelmo, que ahora concede una protección mayor a su portador.
+Taerom “Martillo Atronador” ha mejorado las propiedades de este yelmo, que ahora concede una protección mayor a su portador.
 
 ESTADÍSTICAS:
 
@@ -714,7 +712,7 @@ No permitido a:
  Mago
  Ladrón~
 @144 = ~Espada bastarda +1: Distancia
-Se dice que esta espada bastarda de aspecto simple perteneció al infame gladiador Abdel el Bárbaro, cuyo ingenio y astucia no tuvieron igual en sus treinta y ocho peleas en los fosos clandestinos. Por lo visto, el gladiador podía golpear a un adversario y distanciarse en un instante, impidiendo cualquier posible contraataque de sus enemigos.
+Se dice que esta espada bastarda de aspecto simple perteneció al infame gladiador Abdel el Bárbaro, cuyo ingenio y astucia no tuvieron igual en sus treinta y ocho peleas en los fosos clandestinos. Por lo visto, el gladiador podía golpear a un adversario y distanciarse en un instante, impidiendo cualquier posible contrataque de sus enemigos.
 
 Puede que las historias no se alejen de la verdad. La espada posee la extraña habilidad de ocultar a su portador durante unos segundos tras golpear a su objetivo, permitiéndole distanciarse del enemigo o incluso planear otro golpe preventivo. 
 
@@ -754,6 +752,8 @@ No permitido a:
 Esta espada corta fue creada por los drow imitando a la Hoja de la Sombra a partir de metal de la Infraoscuridad para ser la herramienta perfecta del asesino.
 
 ESTADÍSTICAS:
+
+Especial: Multiplicador de puñalada +1
 
 Daño: 1D6 +3
 THAC0: +3
@@ -806,7 +806,7 @@ No permitido a:
  Ladrón~
 @153 = ~Valor~
 @154 = ~Mandoble +1: Valor
-Este mandoble perteneció al "Mejor Ogro Mago" Kahrk. En un principio, Valor fue entregado a Sir Gregory del Pilar, líder de un grupo de cruzados cuyo objetivo era librar la Costa de la Espada de una despiadada horda de ogros. Los cruzados fracasaron en su misión, siendo masacrados por un ejército de monstruos descomunal tras una larga batalla. Los ogros cogieron Valor como trofeo por la derrota de los humanos, usándola como un símbolo del poder de su raza. No obstante, la espada ha mantenido su pureza durante las décadas que estuvo en su posesión. Según las leyendas, un día se alzará un héroe que reclamará el arma sagrada y esto marcará una serie de cambios en la Costa de la Espada mayor de lo que jamás se haya visto sobre la faz de Faerun.
+Este mandoble perteneció al "Mejor Ogro Mago" Kahrk. En un principio, Valor fue entregado a Sir Gregory del Pilar, líder de un grupo de cruzados cuyo objetivo era librar la Costa de la Espada de una despiadada horda de ogros. Los cruzados fracasaron en su misión, siendo masacrados por un ejército de monstruos descomunal tras una larga batalla. Los ogros cogieron Valor como trofeo por la derrota de los humanos, usándola como un símbolo del poder de su raza. No obstante, la espada ha mantenido su pureza durante las décadas que estuvo en su posesión. Según las leyendas, un día se alzará un héroe que reclamará el arma sagrada y esto marcará una serie de cambios en la Costa de la Espada mayor de lo que jamás se haya visto sobre la faz de Faerûn.
 
 ESTADÍSTICAS:
 
@@ -944,3 +944,233 @@ No permitido a:
  Druida
  Clérigo
  Mago~
+@174 = ~Este mod requiere BGT~
+@175 = ~The Vault's item upgrades - Compatibilizado con Item Revisions. Recomendado por coherencia si planeas instala IR luego~
+@176 = ~Casco de Defensa~
+@177 = ~Yelmo de defensa: 'El Obsequio de la Paz'
+Muy apreciado por su origen noble, así como por los beneficios que otorga a su portador, este yelmo fue en principio un simple regalo. No había momentos de crisis ni males peligrosos a los que enfrentarse. Sencillamente, fue el deseo de un amigo de ofrecer un obsequio a su compañero. Lo mismo podría haber sido un buen libro que una botella de vino, aunque cabría decir que los aventureros son muy prácticos a la hora de ofrecer un obsequio. El yelmo ha sido testigo de numerosos y grandiosos combates desde su creación, pero siempre se recordará por la virtud que rodea esta historia.
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Tiradas de Salvación: +1
+
+Bonificación Clase de Armadura: 1
+Protección contra Golpes Críticos
+Peso: 3
+No lo puede usar:
+ Bardo
+ Mago
+ Monje
+ Ladrón
+ Kensai~
+@178 = ~Casco del Vigilante~
+@179 = ~No está claro si estas piezas mágicas fueron creadas por los clérigos de Helm, dios de los guardianes, o si adquirieron sus nombres debido a alguna circunstancia particular. Cualquiera sea el caso, son altamente apreciadas por guardianes y centinelas. De más está decir que bandidos también las usan, dice el viejo proverbio: "Lo que es bueno para algunos, es bueno para otros".
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Inmunidad a ceguera y sordera 
+
+Bonificación de Clase de Armadura: 1
+Protección contra Golpes Críticos
+Peso: 3
+No lo puede usar:
+ Bardo
+ Mago
+ Monje
+ Ladrón
+ Kensai~
+@180 = ~Casco de protección contra hechizos~
+@181 = ~Como sugiere su nombre, el casco de protección contra hechizos protege al que lo lleva de cualquier intento mágico de manipulación emocional. Como precaución, algunos grupos de mercenarios de alto nivel equipan regularmente a sus miembros con cascos como éste, de modo que puedan cumplir con sus obligaciones sin interferencia del exterior.
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Inmunidad a efectos de hechizos
+
+Bonificación de Clase de Armadura: 1
+Protección contra Golpes Críticos
+Peso: 3
+No lo puede usar:
+ Bardo
+ Mago
+ Monje
+ Ladrón
+ Kensai~
+@182 = ~Yelmo de Defensa~
+@183 = ~Yelmo de defensa: 'El Obsequio de la Paz'
+Muy apreciado por su origen noble, así como por los beneficios que otorga a su portador, este yelmo fue en principio un simple regalo. No había momentos de crisis ni males peligrosos a los que enfrentarse. Sencillamente, fue el deseo de un amigo de ofrecer un obsequio a su compañero. Lo mismo podría haber sido un buen libro que una botella de vino, aunque cabría decir que los aventureros son muy prácticos a la hora de ofrecer un obsequio. El yelmo ha sido testigo de numerosos y grandiosos combates desde su creación, pero siempre se recordará por la virtud que rodea esta historia.
+
+Este yelmo ha sido mejorado por el herrero de Beregost, Taerom "Martillo Atronador".
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Tiradas de Salvación: +1
+ Resistencia Mágica: +10%
+
+Bonificación de Clase de Armadura: 1
+Protección contra Golpes Críticos
+Peso: 3
+No lo puede usar:
+ Bardo
+ Mago
+ Monje
+ Ladrón
+ Kensai~
+@184 = ~Casco del Vigilante~
+@185 = ~No está claro si estas piezas mágicas fueron creadas por los clérigos de Helm, dios de los guardianes, o si adquirieron sus nombres debido a alguna circunstancia particular. Cualquiera sea el caso, son altamente apreciadas por guardianes y centinelas. De más está decir que bandidos también las usan, dice el viejo proverbio: "Lo que es bueno para algunos, es bueno para otros".
+
+Este yelmo ha sido mejorado por el herrero de Beregost, Taerom "Martillo Atronador".
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Inmunidad a ceguera y sordera
+ THAC0: +1
+
+Bonificación de Clase de Armadura: 1
+Protección contra Golpes Críticos
+Peso: 3
+No lo puede usar:
+ Bardo
+ Mago
+ Monje
+ Ladrón
+ Kensai~
+
+@186 = ~Casco de protección contra hechizos~
+@187 = ~Como sugiere su nombre, el casco de protección contra hechizos protege al que lo lleva de cualquier intento mágico de manipulación emocional. Como precaución, algunos grupos de mercenarios de alto nivel equipan regularmente a sus miembros con cascos como éste, de modo que puedan cumplir con sus obligaciones sin interferencia del exterior.
+
+Este yelmo ha sido mejorado por el herrero de Beregost, Taerom "Martillo Atronador".
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Inmunidad a efectos de hechizos
+ Sabiduría: +1 
+
+Bonificación de Clase de Armadura: 1
+Protección contra Golpes Críticos
+Peso: 3
+No lo puede usar:
+ Bardo
+ Mago
+ Monje
+ Ladrón
+ Kensai~
+@188 = ~Túnica de mago de resistencia al frío~
+@189 = ~Las túnicas de mago de resistencia al frío son algo común en la región de la Costa de la Espada, especialmente cuando se viaja en dirección norte hacia Neverwinter y los Valles del Viento Helado. Muchos magos jóvenes la reciben como regalo de sus instructores al terminar con éxito sus cinco años de estudio. Estas túnicas sólo las pueden llevar los que se dedican a la brujería.
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Resistencia al frío: +40%
+
+Peso: 3
+Sólo lo puede usar:
+ Mago~
+@190 = ~Túnica de mago de resistencia al fuego~
+@191 = ~Debido a la naturaleza sumamente imprevisible de la mayor parte de la magia, las túnicas de mago de resistencia al fuego son habituales entre los jóvenes acólitos y sus tutores magos. Estas túnicas sólo las pueden llevar los magos.
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Resistencia al fuego: +40% 
+Peso: 3
+Sólo lo puede usar:
+ Mago~
+@192 = ~Túnica de mago de resistencia a la electricidad~
+@193 = ~Como se ven con menos frecuencia que otras túnicas de mago, las de resistencia a la electricidad se pueden considerar algo poco común. Algunos paranoicos llevan estas túnicas buscando protección de tormentas, pero la mayoría las llevan magos que buscan protegerse de las intrigas de otros de su clase. Al igual que las demás túnicas de este tipo, la túnica de mago de resistencia a la electricidad sólo la pueden llevar los que se dediquen a la brujería.
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Resistencia a la electricidad: +40%
+
+Peso: 3
+Sólo lo puede usar:
+ Mago~
+@194 = ~Túnica del Pícaro~
+@195 = ~Esta túnica ha sido especialmente encantada para aquellas necesidades eclécticas de los magos multiclase. La favorita entre los ladrones-mago, la túnica del pícaro ha sido encantada para cubrir a su portador de las espadas y los venenos de cualquier callejón oscuro. Como otras de su tipo, está restringido su uso a los estudiantes de la magia arcana
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Inmunidad al apuñalamiento por la espalda
+ Tiradas de Salvación: +2 contra veneno
+
+Peso: 4
+Sólo lo puede usar:
+ Mago~
+@196 = ~Túnica del Viajero~
+@197 = ~Esta túnica de mago ha sido perfeccionada para que la utilice cualquier mago excursionista e itinerante que viaje de ciudad en ciudad. Sus encantamientos protegen de la flecha del bandido sino que también permiten al portador moverse con extraordinaria rapidez sin esfuerzo. Como las demás túnicas de su tipo, la túnica del viajante sólo la pueden llevar los magos.
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Velocidad de movimiento: +2
+ Clase de Armadura: +2 contra misiles
+ Tiradas de Salvación: +2 contra aliento
+
+Peso: 4
+Sólo lo puede usar:
+ Mago~
+@198 = ~Túnica del aventurero~
+@199 = ~Diseñada por Vangerdahast, mago real del Rey Zoun IV de Cormyr, quien fue un exitoso aventurero de gran fama. Una razón por la que fue popular en el círculo de magia fue la creación de la túnica del aventurero. Los magos tienen siempre que luchar con las limitaciones a su alrededor para usar su habilidad en convocar magia arcana. Estas túnicas dan al mago una mejor posibilidad de sobrevivir a encuentro con guerreros cuerpo a cuerpo absorbiendo la mayor parte de los golpes.
+
+ESTADÍSTICAS:
+
+Habilidades Equipado:
+ Resistencia a los daños físicos: +10%
+
+Peso: 4
+Sólo lo puede usar:
+ Mago~
+@200 = ~Túnica de Acero
+La Túnica de Acero fue especialmente diseñada por Melicamp, el mago aprendiz de Beregost, como gratitud hace <CHARNAME> por salvarle de terminar en el estómago de un hambriento lobo cuando accidentalmente se transformó a sí mismo en pollo. La extensa investigación del mago menor ha hecho en los diversos trajes que habéis dado un manto de un poder extraordinario, digno de igualar al mismísimo Thalantyr.
+
+Estos trajes pesados asumen parte de la resistencia y durabilidad del acero Drow sin el defecto de la desintegración en polvo bajo la luz del sol. También proporciona al portador una resistencia a algunas de las magias elementales utilizadas en los reinos, desarrollando verdaderamente un formidable mago a ser considerado. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 6
+Tiradas de Salvación: +1
+Resistencia Mágica: +20%
+Resistencia al fuego: +30% 
+Resistencia al frío: +30% 
+Resistencia a la electricidad: +30% 
+Peso:  9
+Sólo lo puede usar:
+Mago (simple, dual, o multiclase)~
+@201 = ~Túnica Menor de Resistencia
+La Túnica Menor de Resistencia fue especialmente diseñada por Melicamp, el mago aprendiz de Beregost, como gratitud hace <CHARNAME> por salvarle de terminar en el estómago de un hambriento lobo cuando accidentalmente se transformó a sí mismo en pollo. La extensa investigación del mago menor ha hecho en los diversos trajes que habéis dado un manto de un poder extraordinario.
+
+Estos trajes pesados asumen parte de la resistencia y durabilidad del acero Drow sin el defecto de la desintegración en polvo bajo la luz del sol. También proporciona al portador una resistencia a algunas de las magias elementales utilizadas en los reinos.
+
+ESTADÍSTICAS:
+
+Clase de Armadura:  7
+Resistencia al fuego:  30% 
+Resistencia al frío:  30% 
+Resistencia a la electricidad:  30% 
+Peso:  9
+Sólo lo puede usar:
+Mago (simple, dual, o multiclase)~
+@202 = ~Túnica del Erudito
+La Túnica del Erudito fue especialmente diseñada por Melicamp, el mago aprendiz de Beregost, como gratitud hace <CHARNAME> por salvarle de terminar en el estómago de un hambriento lobo cuando accidentalmente se transformó a sí mismo en pollo. La extensa investigación del mago menor ha hecho en los diversos trajes que habéis dado un manto de un poder extraordinario.
+
+Estos trajes pesados asumen parte de la resistencia y durabilidad del acero Drow sin el defecto de la desintegración en polvo bajo la luz del sol. También proporciona al portador una resistencia a algunas de las magias elementales utilizadas en los reinos.
+
+ESTADÍSTICAS:
+
+Clase de Armadura:  7
+Tirada de Salvación:  +1
+Resistencia Mágica:  10%
+Velocidad de Movimiento: +2
+Peso:  9
+Sólo lo puede usar:
+Mago (simple, dual, o multiclase)~
+@203 = ~Requiere el componente principal~
+@204 = ~Vuestros objetos drows se han resquebrajado~

@@ -6,7 +6,8 @@
 @3   = ~Never mind.~
 @4   = ~Yes! It IS a key! But to what, I cannot remember. Some store of hidden magic... You will have to find someone more learned in these evil artifacts crafted in days long past. Maybe the Priest of Gond in Baldur's Gate, or a fortune teller could tell you more! I want NOTHING to do with this!~
 @5   = ~I didn't mean to touch a nerve. Sorry...~
-@6   = ~The cursed Vampire's Revenge has stirred yet another incomplete recollection in one of the Sword Coast's more powerful figures. The mage Thalantyr recognizes it as a key to something but could not recall what. He suggests finding someone more apt in the lore of these ancient artifacts like the Priest of Gond or a fortune teller to solve this mystery.~ @7   = ~Hello again, <CHARNAME>, how can I help you today?~
+@6   = ~The cursed Vampire's Revenge has stirred yet another incomplete recollection in one of the Sword Coast's more powerful figures. The mage Thalantyr recognizes it as a key to something but could not recall what. He suggests finding someone more apt in the lore of these ancient artifacts like the Priest of Gond or a fortune teller to solve this mystery.~ 
+@7   = ~Hello again, <CHARNAME>, how can I help you today?~
 @8   = ~I have obtained an item of some magical significance... it is, however, not for sale. I was wondering if your could tell me if it may be of some use.~
 @9   = ~I have with me a rather strange sword. It is not for sale, however. Would you mind looking at it?~
 @10  = ~What it is with these mines? You cleared it of those little dogs weeks ago and now we've got a spider infestation!~
@@ -56,8 +57,8 @@ Your journey has come full circle.  Duke Eltan has asked that you travel back to
 @52  = ~Let us flee for now, Gandolar. I think we best plan another way of defeating these ogres.~
 @53  = ~Hmmm... I understand. I have seen an ogre atop the hills who seems to be commanding this whole attack. If you are right, maybe sending a small party to kill their leader will weaken their grip! It sounds desperate, but it may well be our only hope.~
 @54  = ~Desperate men employ desperate measures. I will set out with a small detachment as soon as I am able. May the gods help us.~
-@55  = ~The Gullykin situation seems to be escalating every moment. The horde continues to press hard... Gandolar and I have conceived a possible solution, whether it is is born of careful planning or desperation, I do not know: I have proposed that we send a small unit to kill this Kharaz and hopefully break this army's morale. Gandolar is uncertain, but we have little else to go on. He tellsme that he saw an ogre commanding the raiding parties atop the small hill just outside Gullykin.~
-@56  = ~<CHARNAME>! The ogres retreated once they witnessed the death of Kharaz on the hillside! You have done it once again! Please take these small tokens of our appreciation!~
+@55  = ~The Gullykin situation seems to be escalating every moment. The horde continues to press hard... Gandolar and I have conceived a possible solution, whether it is is born of careful planning or desperation, I do not know: I have proposed that we send a small unit to kill this Kharaz and hopefully break this army's morale. Gandolar is uncertain, but we have little else to go on. He tells me that he saw an ogre commanding the raiding parties atop the small hill just outside Gullykin.~
+@56  = ~<CHARNAME>! The ogres retreated once they witnessed the death of Kharaz on the hillside! You have done it once again! Please take this small token of our appreciation!~
 @57  = ~With the Ogre Mage Kharaz slain, the ogre hordes have fled the hillside and the few that remain in the village should be dispersed quite easily. Gandolar and the townfolk of Gullykin are relieved that their homes are once again safe.~
 @58  = ~I trust you have found the populous of our little village to be amiable?  We always welcome Gullykin's heroes!~
 @59  = ~I trust you have found the populous of our little village to be amiable?  It's been all peace and quiet since you got rid of the kobolds!~
@@ -95,7 +96,7 @@ A hunter we met suggested that we search out the Firewine bridge ruins for adven
 @77  = ~I believe that I can, um, salvage some of the magic left in the armor, if I had just the right components to work with... like simple garments with minor enchantments. Yes... yes! I think it is indeed possible! Come back to me with several of these robes and I will craft something for you!~
 @78  = ~All right. I will see to it right away.~
 @79  = ~It seems Thalantyr's apprentice, Melicamp, may yet show some promise. When presented with an armor I acquired from the drow in the Nashkel Mines, he was quick to suggest the crafting of some magical item for me. All I need do is bring him several robes with minor enchantments.~
-@80  = ~Yes, yes! Robes of resistance are excellent materials for our creation! Um, I will, however, require a small sum of, say, 7,000 gold to craft this... The master is quite unaware of our plans and will be fairly mad once he finds out that we used his spell components for something such as this. Hehe. *cluck*~
+@80  = ~Yes, yes! Robes of resistance are excellent materials for our creation! Um, I will, however, require a small sum of, say, 8,000 gold to craft this... The master is quite unaware of our plans and will be fairly mad once he finds out that we used his spell components for something such as this. Hehe. *cluck*~
 @81  = ~All right, I have the gold. Let us do it.~
 @82  = ~I must think it over first, Melicamp.~
 @83  = ~All right. Stand aside while I finish the incantation.~
@@ -103,9 +104,9 @@ A hunter we met suggested that we search out the Firewine bridge ruins for adven
 @85  = ~All right, here is the gold for the components. Let us do it.~
 @86  = ~8,000 gold?! I must reconsider for now, Melicamp.~
 @87  = ~All right. Place the robes here. Stay back while I finish the incantation.~
-@88  = ~Yes, indeed! It must have taken you quite some time to acquire all of these, but I dare say it will be worth it! Um,  however, another, minor requirement of, um, 10,000 gold, and a small detail to discuss. The master is quite unaware of our plans and will be fairly mad once he finds out that we used his spell components for something such as this. The gold should compensate for any and all other components we shall use. Hehe. *cluck* As for the small detail, there is the slightest chance that the spell will, um, destroy all the components instead of meld them together. *cluck*~
+@88  = ~Yes, indeed! It must have taken you quite some time to acquire all of these, but I dare say it will be worth it! Um,  however, another, minor requirement of, um, 20,000 gold, and a small detail to discuss. The master is quite unaware of our plans and will be fairly mad once he finds out that we used his spell components for something such as this. The gold should compensate for any and all other components we shall use. Hehe. *cluck* As for the small detail, there is the slightest chance that the spell will, um, destroy all the components instead of meld them together. *cluck*~
 @89  = ~I believe it is a risk worth taking, Melicamp. Let us do it.~
-@90  = ~10,000 gold and a chance this will all be lost? I must think this through, Melicamp.~
+@90  = ~20,000 gold and a chance this will all be lost? I must think this through, Melicamp.~
 @91  = ~All right, then! Place the robes here and stand aside until I finish the incantation.~
 @92  = ~I understand. What else can I help you with, then?~
 @93  = ~Do you know of drow artifacts?~
@@ -118,7 +119,7 @@ A hunter we met suggested that we search out the Firewine bridge ruins for adven
 @100 = ~Sounds like a worthwhile offer.~
 @101 = ~I would like some time to think upon your generous offer. In the meantime, might I see your wares?~
 @102 = ~Then consider it done. I'll have it done within moments... I have a mold of armor that is just in need of special material for its padding... There, all done!~
-@103 = ~Aye, that is a fine Helm of Defense you have in your possession. Excellent craftsmanship by any standard. You say you want more protection? I believe it is possible, but I would need one of what they call "the Ring of Princes", an opal, and, of course 3,000 gold for my troubles.~
+@103 = ~Aye, that is a fine Helm of Defense you have in your possession. Excellent craftsmanship by any standard. You say you want more protection? I believe it is possible, but I would need one of what they call "the Ring of Princes", an opal, and, of course 5,000 gold for my troubles.~
 @104 = ~I am agreeable to that. Here is a Black Opal, the ring you have asked for, and the Helm.~
 @105 = ~I am agreeable to that. Here is a Black Opal, an unconventional ring, but as you have asked for, and the Helm.~
 @106 = ~I am agreeable to that. Here is a Water Opal, the ring you have asked for, and the Helm.~
@@ -135,9 +136,9 @@ A hunter we met suggested that we search out the Firewine bridge ruins for adven
 @117 = ~Could you show us what you have for sale?~
 @118 = ~I have with me a rather strange sword. Would you mind looking at it?~
 @119 = ~Nothing at the moment.~
-@120 = ~The "Eyes of Truth", as others would call it. Fine equipment of modest protection. You say you are looking to enhance it? I believe it is possible, but I would need several more items. A Ring of Princes, an opal, and, 3,000 gold to shoulder the cost of labor.~
+@120 = ~The "Eyes of Truth", as others would call it. Fine equipment of modest protection. You say you are looking to enhance it? I believe it is possible, but I would need several more items. A Ring of Princes, an opal, and, 5,000 gold to shoulder the cost of labor.~
 @121 = ~All right, everything seems to be in place. Let us begin the work!~
-@122 = ~Ah, yes, a Helm of Charm Protection, is it? Of quality smithing, too. You say you are looking to have it provide you more protection? That is possible, but I would need several more items to do so. A Ring of Princes, an opal, and, 3,000 gold to shoulder the costs. What do you say?~
+@122 = ~Ah, yes, a Helm of Charm Protection, is it? Of quality smithing, too. You say you are looking to have it provide you more protection? That is possible, but I would need several more items to do so. A Ring of Princes, an opal, and, 5,000 gold to shoulder the costs. What do you say?~
 @123 = ~The dawn priests have informed me of what has just transpired... I thank you for your assistance but I must ask of you one more task. Ranthis... is but a messenger.~
 @124 = ~All right, but I must have answers first.~
 @125 = ~If it means vanquishing another of that demon's consort, then I will see it done.~
@@ -187,3 +188,6 @@ It seems my hunch was right about the deciphered writings on the ancient tome Du
 @168 = ~It is time to pay the piper, Zhurlong. A man named Zernan came to you the other day asking about a group of people who could help decipher ancient scripts. What do you know?~
 @169 = ~Oh, that fella? He is a scalawag, I tell yah. Told him ta head for the Nashkel Mines. Heard a shady group wanted the book... and naw, I dint steal it from him! Takes a wily thief to catch and stop another wily thief from pickin his stash! Wait, isn't that him over there?~
 @170 = ~Zhurlong admits to making contact with Zernan and says that he directed the scholar to the Nashkel mines. Strange, though, he also hinted that Zernan was more than just a scholar, stating that it takes a thief to catch a thief. Strange, indeed.~
+@171 = ~...revenge... is... the key... to... the vault...~
+@172 = ~Thanks for the offer but I'll pass. May I ask you something else?~
+@173 = ~I'm interested in that wyvern armor you were talking about. Here is the wyvern head and the 9000 gold pieces you asked for.~

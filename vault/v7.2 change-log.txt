@@ -1,0 +1,47 @@
+Summary of changes :
+
+  - Added russian translation by Silent and Aldark from arcanecoast.ru
+
+  - Added a new component for compatibility with Item Revisions.
+It adds modified upgraded items so you don't waste money on downgrades.
+Also installs the base items so if you don't install IR but install this component you will have some items replaced by IR versions.
+
+  - Balanced some items effects. 
+
+  - Fixed all weapons as they weren't using any proficiency type or enchantment level.
+
+  - Replaced some of the custom items (that were just copied from BG2) with their BG2 counterpart.
+
+  - Replaced some creatures spawns with stock BG2 ones. (Stone Golems, Greater Basilisks, etc..)
+
+  - Fixed some creatures stats/immunities/weapon effects/animations. (1 vampire and 1 golem)
+
+  - Fixed some dialogues.
+
+  - Lowered some trap removal requirements so they can be disarmed
+
+  - Heavily modified drows override script to allow for other scripts to be read. Mainly for SCS/BP AI enhancements.
+
+  - Gandolar Luckyfoot (Mayor of Gullykin) shouldn't disappear anymore.
+
+  - Ghost Knights inside Firewine Ruins will not take the ancient armor from you anymore so it can be kept to obtain the Vampire's revenge and eventually access the vault.
+
+  - Vampire's revenge can now only be obtained after you have shown the History of the Nether Scrolls to Ulcaster
+
+  - Drow items (sword/crossbow/chainmail) can now be collected and used.
+They will decay in sunlight and turn into materials used for Melicamp robes upgrades.
+Those were previously looted already broken from the drows.
+
+  - Slightly lowered some XP gains. Increased some prices for item upgrades.
+
+  - Lowered potions of extra healing supplies.
+
+  - Deprecated messy lvl-50 ruleset that was previously installed with the mod.
+
+  - Deprecated area patching of ARA101 (Charleston digging site tomb)
+Replaced by a duplicate of that same area to avoid mod conflicts and makes it a truly buried/remote/unaccessible tomb
+
+  - Vestibule quest demon encounter in Wood of Sharp Teeth will happen even if you previously killed the Red Wizards.
+In a future update I will likely come back on that change and just add a new dialog option with Kelddath if you have already killed them.
+
+  - Various misc. enhancements/fixes

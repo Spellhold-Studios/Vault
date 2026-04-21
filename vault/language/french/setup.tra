@@ -48,7 +48,7 @@ Vol à la tire : +5 %
 Crochetage : +5 %
 Se cacher dans l'ombre : +5 %
 Utilisable par :
- Voleur (mono classé, à classes jumelées ou multiclassé)~
+ Voleur (monoclassé, à classes jumelées ou multiclassé)~
 @35 = ~Ceinturon~
 @36 = ~Ceinturon de Force du Géant des Collines~
 @37 = ~Les ceinturons ressemblent généralement aux ceintures. Mais à la différence de ces dernières, ils ne servent pas à retenir les pantalons ou les salopettes, mais à porter bourses, fourreaux et choses de ce genre. 
@@ -74,8 +74,8 @@ Dégâts : 1D6
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 4
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : gourdin
+Type : arme à une main
 Non Utilisable par :
  Mage~
 @42 = ~Gourdin +1 : Ire de Dageid
@@ -92,8 +92,8 @@ Dégâts : 1D6 +1
 Type de dégâts : contondant
 Poids : 2
 Facteur de vitesse : 3
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : gourdin
+Type : arme à une main
 Non Utilisable par :
  Mage~
 @43 = ~Masse~
@@ -106,8 +106,8 @@ Dégâts : 1D6 +1
 Type de dégâts : contondant
 Poids : 8
 Facteur de vitesse : 7
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : masse
+Type : arme à une main
 Non Utilisable par :
  Druide
  Mage
@@ -126,8 +126,8 @@ Dégâts : 1D6 +2
 Type de dégâts : contondant
 Poids : 4
 Facteur de vitesse : 4
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : masse
+Type : arme à une main
 Non Utilisable par :
  Personnages Loyaux
  Druide
@@ -147,8 +147,8 @@ Dégâts : 1D6 +1
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 3
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : gourdin
+Type : arme à une main
 Non Utilisable par :
  Mage~
 @49 = ~Fléau~
@@ -161,8 +161,8 @@ Dégâts : 1D6 +1
 Type de dégâts : contondant
 Poids : 15
 Facteur de vitesse : 7
-Type de compétence : armes à pointes
-Type : à 1 main
+Type de compétence : fléau/étoile du matin
+Type : arme à une main
 Non Utilisable par :
  Druide
  Mage 
@@ -178,8 +178,8 @@ Spécial : +3 points de dégâts perforants
 Type de dégâts : contondant
 Poids : 11
 Facteur de vitesse : 5
-Type de compétence : armes à pointes
-Type : à 1 main
+Type de compétence : fléau/étoile du matin
+Type : arme à une main
 Non Utilisable par :
  Druide
  Mage 
@@ -197,8 +197,8 @@ Dégâts : 1D6 +3
 Type de dégâts : contondant
 Poids : 6
 Facteur de vitesse : 4
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : masse
+Type : arme à une main
 Non Utilisable par :
  Druide
  Mage
@@ -230,11 +230,10 @@ Poids : 3~
 
 PARAMETRES :
 
-Dégâts : 
 Poids : 2
 Facteur de vitesse : 6
-Type de compétence : arcs
-Type : à 2 mains
+Type de compétence : arc court
+Type : arme à deux mains
 Non Utilisable par :
  Druide
  Clerc
@@ -254,8 +253,8 @@ Dégâts : 1D3 +1
 Type de dégâts : perforant
 Poids : 3
 Facteur de vitesse : 4
-Type de compétence : arcs
-Type : à 2 mains
+Type de compétence : arc court
+Type : arme à deux mains
 Non Utilisable par :
  Druide
  Clerc
@@ -309,7 +308,7 @@ PARAMETRES :
 
 Poids : 9
 Utilisable uniquement par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @77 = ~La Robe d'Acier
 La Robe d'Acier a été créée par Mélicamp, l'apprenti magicien de Bérégost, spécialement pour remercier <CHARNAME> de l'avoir sauvé des crocs d'un loup sauvage après s'être accidentellement changé en poulet. Les recherches approfondies qu'a menées le jeune mage sur les diverses robes qu'on lui a données ont montré que, combinées ensemble, elles pouvaient donner un vêtement extraordinairement puissant.
 
@@ -325,7 +324,7 @@ Résistance au froid : 20 %
 Résistance à l'électricité : 20 % 
 Poids : 9
 Utilisable uniquement par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @78 = ~Robe Mineure de Résistance~
 @79 = ~La Robe Mineure de Résistance
 La Robe Mineure de Résistance a été créée par Mélicamp, l'apprenti magicien de Bérégost, spécialement pour remercier <CHARNAME> de l'avoir sauvé des crocs d'un loup sauvage après s'être accidentellement changé en poulet. Les recherches approfondies qu'a menées le jeune mage sur les diverses robes qu'on lui a données ont montré que, combinées ensemble, elles pouvaient donner un vêtement extraordinairement puissant.
@@ -341,7 +340,7 @@ Résistance au froid : 20 %
 Résistance à l'électricité : 20 % 
 Poids : 9
 Utilisable uniquement par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @80 = ~Robe de l'Erudit~
 @81 = ~La Robe de l'Erudit
 La Robe de l'Erudit a été créée par Mélicamp, l'apprenti magicien de Bérégost, spécialement pour remercier <CHARNAME> de l'avoir sauvé des crocs d'un loup sauvage après s'être accidentellement changé en poulet. Les recherches approfondies qu'a menées le jeune mage sur les diverses robes qu'on lui a données ont montré que, combinées ensemble, elles pouvaient donner un vêtement extraordinairement puissant.
@@ -355,7 +354,7 @@ Jets de Sauvegarde : +1
 Résistance à la magie : 5 %
 Poids : 9
 Utilisable uniquement par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @82 = ~Casque~
 @83 = ~Couronne des Rois Déchus~
 @84 = ~Ce type de casque d'apparat, fait de cuir ou de métal renforcé, couvre tout le visage et le crâne sauf le nez et les yeux. Ce heaume semble être un casque décoratif, et peut se vendre à un bon prix.
@@ -394,7 +393,10 @@ PARAMETRES :
 Classe d'Armure : 3
 Résistance à la magie : 10 %
 Poids : 25
-Non Utilisable par :~
+Non Utilisable par :
+ Mage
+ Moine
+ Druide~
 @90 = ~Cotte de Mailles des Tréfonds Obscurs +1~
 @91 = ~Cotte de Mailles des Tréfonds Obscurs +1
 Cette cotte de mailles elfique fabriquée par un artisan de talent est faite d'illithium, un minerai rare que l'on ne trouve que dans les plus profondes caves de Féérune. C'est pourquoi l'on peut sentir une forte aura irradier de l'armure. Les gravures et les runes gravées à la surface de la cotte de mailles indiquent qu'elle a été fabriquée spécialement pour une prêtresse elfe noire. En effet, elle confère à son porteur une plus grande compréhension des divinités et demi-divinités des Royaumes, et bien qu'une telle armure aurait été des plus appréciées dans les Tréfonds Obscurs, les êtres de la surface semblent la trouver repoussante, et ceux qui voudraient la porter en subiraient les conséquences.
@@ -408,6 +410,9 @@ Spécial :
  Charisme : -2
 Poids : 25
 Non Utilisable par :
+ Mage
+ Voleur
+ Moine
  Druide~
 @92 = ~Marteau de Guerre~
 @93 = ~Rayonnement de Lathandre~
@@ -419,8 +424,8 @@ Dégâts : 1D4 +1
 Type de dégâts : contondant
 Poids : 6
 Facteur de vitesse : 4
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : marteau de guerre
+Type : arme à une main
 Non Utilisable par :
  Druide
  Mage 
@@ -437,8 +442,8 @@ Dégâts : 1D4 +3
 Type de dégâts : contondant
 Poids : 5
 Facteur de vitesse : 3
-Type de compétence : armes contondantes
-Type : à 1 main
+Type de compétence : marteau de guerre
+Type : arme à une main
 Non Utilisable par : 
  Personnages mauvais
  Druide 
@@ -536,7 +541,8 @@ Le propriétaire d'origine de cette armure était l'infâme Bala, le prince d'un cl
 PARAMETRES :
 
 Classe d'Armure : 2
-Résistance à la magie : 60 %
+Résistance à la magie : 30 %
+Résistance aux dégâts magiques : 30 %
 Déplacement silencieux : -10 %
 Crochetage : -5 %
 Détecter / désamorcer les pièges : -5 %
@@ -575,9 +581,9 @@ PARAMETRES :
 Résistance à l'électricité : +20 %
 Poids : 3
 Utilisable uniquement par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @120 = ~Armure de Plates~
-@121 = ~Ecailles de Wyverne~
+@121 = ~Ecailles de Wiverne~
 @122 = ~L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir.
 
 PARAMETRES :
@@ -589,15 +595,17 @@ Non Utilisable par :
  Druide
  Mage
  Voleur~
-@123 = ~Cette armure a été faite sur mesure pour <CHARNAME> par Taërom Fuiruim, le fameux forgeron de Bérégost. Moulée dans les écailles d'une wyverne morte, elle est aussi peu encombrante qu'une armure d'écailles habituelle, mais offre une protection égale à celle d'une armure de plates et accorde une résistance contre certains poisons à son porteur. 
+@123 = ~Cette armure a été faite sur mesure pour <CHARNAME> par Taërom Fuiruim, le fameux forgeron de Bérégost. Moulée dans les écailles d'une wiverne morte, elle est aussi peu encombrante qu'une armure d'écailles habituelle, mais offre une protection égale à celle d'une armure de plates et accorde une résistance contre certains poisons à son porteur. 
 
 PARAMETRES :
 
 Classe d'Armure : 2
-Spécial : +5 aux Jets de Sauvegarde contre la Paralysie et le Poison
+Bonus de +5 aux jets de sauvegarde contre la mort
+Résistance au poison : +25 %
 Poids : 20
 Non Utilisable par :
- Barde 
+ Barde
+ Moine
  Druide
  Mage
  Voleur~
@@ -614,7 +622,7 @@ PARAMETRES :
 Spécial : confère un sort supplémentaire de mage de deuxième et de troisième niveau
 
 Utilisable par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @131 = ~Anneau Mineur de Perception~
 @132 = ~Commandé par les dirigeants du monde souterrain de la Porte de Baldur pour leurs alliés, cet anneau améliore les sens de son propriétaire, ce qui le rend plus performant pour certaines tâches "délicates" et souvent peu honorables.
 
@@ -625,7 +633,7 @@ Vol à la tire : +10 %
 Crochetage : +10 %
 Se cacher dans l'ombre : +10 %
 Utilisable par :
- Voleur (mono classé, à classes jumelées ou multiclassé)~
+ Voleur (monoclassé, à classes jumelées ou multiclassé)~
 @133 = ~Bâton~
 @134 = ~Bâton de Rahm +3~
 @135 = ~Réputé être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
@@ -636,8 +644,8 @@ Dégâts : 1D6
 Type de dégâts : contondant
 Poids : 4
 Facteur de vitesse : 4
-Type de compétence : armes contondantes
-Type : à 2 mains
+Type de compétence : bâton
+Type : arme à deux mains
 Non Utilisable par :~
 @136 = ~Ce bâton est l'arme personnelle de Cadderly. Enchanté par son ami, le grand magicien Belisarius, dans sa petite propriété des faubourgs de Caradoon, le bâton a été d'une grande aide à l'érudit et prêtre de Dénéir dans son combat contre les forces de Château-Trinité. On dit que le bâton, qui est en la possession du clerc depuis très longtemps, a reçu les bénédictions de Dénéir et d'Oghma, conférant à son propriétaire une plus grande capacité de mémorisation de prières et de sorts.
 
@@ -650,10 +658,10 @@ Spécial : accorde un sort supplémentaire de prêtre de deuxième et de troisième n
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 2
-Type de compétence : armes contondantes
-Type : à 2 mains
+Type de compétence : bâton
+Type : arme à deux mains
 Utilisable par :
- Clerc (mono classé, à classes jumelées ou multiclassé)
+ Clerc (monoclassé, à classes jumelées ou multiclassé)
  Druide
  Paladin
  Personnages neutres ou bons~
@@ -671,8 +679,8 @@ Spécial :
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1 
-Type de compétence : armes contondantes
-Type : à 2 mains
+Type de compétence : bâton
+Type : arme à deux mains
 Utilisable par :
  Druide~
 @139 = ~Bâton de Résistance~
@@ -688,10 +696,10 @@ Spécial : +10 % de résistance à la magie
 Type de dégâts : contondant
 Poids : 2
 Facteur de vitesse : 1
-Type de compétence : armes contondantes
-Type : à 2 mains
+Type de compétence : bâton
+Type : arme à deux mains
 Utilisable par :
- Mage (mono classé, à classes jumelées ou multiclassé)
+ Mage (monoclassé, à classes jumelées ou multiclassé)
  Barde~
 @141 = ~Epée bâtarde~
 @142 = ~Distance~
@@ -699,13 +707,12 @@ Utilisable par :
 
 PARAMETRES :
 
-TAC0 : +1
-Dégâts : 2D4 +1
+Dégâts : 2D4
 Type de dégâts : tranchant
 Poids : 9
 Facteur de vitesse : 7
-Type de compétence : épée large
-Type : à 1 main
+Type de compétence : épée bâtarde
+Type : arme à une main
 Non Utilisable par :
  Druide
  Clerc
@@ -724,8 +731,8 @@ Spécial : 50 % de chance que, sur un coup au but, le porteur devienne invisible 
 Type de dégâts : tranchant
 Poids : 9
 Facteur de vitesse : 7
-Type de compétence : épée large
-Type : à 1 main
+Type de compétence : épée bâtarde
+Type : arme à une main
 Non Utilisable par :
  Druide
  Clerc
@@ -741,8 +748,8 @@ Dégâts : 1D6
 Type de dégâts : perforant
 Poids : 3
 Facteur de vitesse : 3
-Type de compétence : petite épée
-Type : à 1 main
+Type de compétence : épée courte
+Type : arme à une main
 Non Utilisable par :
  Druide
  Clerc 
@@ -752,13 +759,15 @@ Fabriquée par les elfes noires d'après la Lame de l'Ombre, mais faite de métal d
 
 PARAMETRES :
 
+Spécial : +1 au multiplicateur d'attaque sournoise
+
 TAC0 : +3
 Dégâts : 1D6 +3
 Type de dégâts : perforant
 Poids : 3 
 Facteur de vitesse : 0
-Type de compétence : petite épée
-Type : à 1 main
+Type de compétence : épée courte
+Type : arme à une main
 Non Utilisable par :
  Druide
  Clerc 
@@ -773,8 +782,8 @@ Dégâts : 1D10
 Type de dégâts : tranchant
 Poids : 15
 Facteur de vitesse : 10
-Type de compétence : épée large
-Type : à 2 mains
+Type de compétence : épée à deux mains
+Type : arme à deux mains
 Non Utilisable par :
  Druide
  Clerc
@@ -785,7 +794,7 @@ Arrachée des griffes de Ranthis, le démon-messager, par un groupe d'aventuriers 
 
 PARAMETRES :
 
-Spécial : 75 % de chance qu'une cible touchée par Dévastation doive réussir un jet de sauvegarde contre la Paralysie (avec une pénalité de -1) ou être paralysée pendant 12 secondes
+Spécial : 25 % de chance qu'une cible touchée par Dévastation doive réussir un jet de sauvegarde contre la Paralysie (avec une pénalité de -1) ou être paralysée pendant 12 secondes
           +20 points de vie 
 
 TAC0 : +2
@@ -793,8 +802,8 @@ Dégâts : 1D10 +2
 Type de dégâts : tranchant
 Poids : 8
 Facteur de vitesse : 8
-Type de compétence : épée large
-Type : à 2 mains
+Type de compétence : épée à deux mains
+Type : arme à deux mains
 Non Utilisable par :
  Personnages bons
  Druide
@@ -815,8 +824,8 @@ Dégâts : 1D10 +1
 Type de dégâts : tranchant
 Poids : 10
 Facteur de vitesse : 4
-Type de compétence : épée large
-Type : à 2 mains
+Type de compétence : épée à deux mains
+Type : arme à deux mains
 Non Utilisable par :
  Druide
  Clerc
@@ -832,8 +841,8 @@ PARAMETRES :
 
 Poids : 7
 Facteur de vitesse : 5
-Type de compétence : arme à projectiles
-Type : à 2 mains
+Type de compétence : arbalète
+Type : arme à deux mains
 Non Utilisable par :
  Druide
  Clerc
@@ -847,8 +856,8 @@ TAC0 : +1
 Dégâts : +1 (projectile)
 Poids : 6
 Facteur de vitesse : 4
-Type de compétence : arme à projectiles
-Type : à 2 mains
+Type de compétence : arbalète
+Type : arme à deux mains
 Non Utilisable par :
  Druide
  Clerc
@@ -862,7 +871,7 @@ PARAMETRES :
 Spécial : Mémoriser un sort supplémentaire des premier et deuxième niveaux
 
 Utilisable par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @161 = ~Ce texte, complètement indéchiffrable, résiste à toutes les tentatives de lecture par la magie ou par d'autres moyens. Peut-être qu'un érudit, ou qu'une personne s'y connaissant dans les arts anciens pourrait traduire ce texte archaïque.~
 @162 = ~Les mots "Kozah", "Armure de Flammevin" et "Ulcaster" ont été traduits. Tout le reste du texte est complètement indéchiffrable, et résiste à toutes les tentatives de lecture par la magie ou par d'autres moyens~
 @163 = ~Cape Sacrée~
@@ -894,7 +903,7 @@ PARAMETRES :
  Inconnus
 
 Utilisable par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @169 = ~Cette cape a été volée à Shandalar par le puissant mage Semia, sans doute pour les pouvoirs magiques qu'elle renferme. Mais comment elle est arrivée entre vos mains et ce qu'il est advenu de Semia, cela reste un mystère absolu, et le demeurera sans doute à jamais... Tout comme les secrets de cette cape, qui échapperaient même à l'entendement d'un grand mage.
 
 PARAMETRES :
@@ -906,9 +915,9 @@ Spécial :
  Accorde un sort supplémentaire du quatrième niveau
 
 Utilisable par :
- Mage (mono classé, à classes jumelées ou multiclassé)~
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
 @170 = ~Epée Vampirique~
-@171 = ~La Revanche du Vampire~
+@171 = ~La Revanche du Vampire +1~
 @172 = ~Cette arme stylisée porte en gros caractères sur toute la longueur de la lame l'inscription « Epée vampirique ».
 
 PARAMETRES :
@@ -918,7 +927,7 @@ Type de dégâts : tranchant
 Poids : 4
 Facteur de vitesse : 5
 Type de compétence : grande épée
-Type : à 1 main
+Type : arme à une main
 Non Utilisable par :
  Druide
  Clerc
@@ -935,9 +944,305 @@ Dégâts : 1D8 +1
 Type de dégâts : tranchant
 Poids : 4
 Facteur de vitesse : 4
-Type de compétence : épée large
-Type : à 1 main
+Type de compétence : épée longue
+Type : arme à une main
 Non Utilisable par :
  Druide
  Clerc
  Mage~
+@174 = ~Ce mod necessite la presence de BGT.~
+@175 = ~Amelioration des objets de The Vault - Compatibilite avec Item Revisions. Recommande par souci de coherence si vous projetez d'installer plus tard le composant principal d'IR~
+@176 = ~Heaume de Défense~
+@177 = ~"Don de Paix"
+Prisé pour sa noble origine autant que pour ses capacités, le premier de ces heaumes n'était à l'origine qu'un simple présent. Aucun malheur ne menaçait, aucun dangereux ennemi n'était à vaincre ; il s'agissait juste du cadeau d'un ami à un autre ami. Il aurait très bien pu prendre la forme d'un grimoire ou encore d'une bonne bouteille de vin, mais les aventuriers sont des gens au sens pratique très développé. Par la suite, de par son efficacité en toute situation, d'innombrables variantes de ce heaume furent fabriquées. Ces heaumes ont participé à de nombreuses et glorieuses batailles depuis leur création, mais seule la vertu du premier spécimen semble avoir marqué les esprits.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Jets de Sauvegarde : bonus de +1
+
+Bonus de classe d'armure : 1
+Protège contre les coups critiques
+Poids : 3
+Inutilisable par :
+ Barde
+ Mage
+ Moine
+ Voleur
+ Kensai~
+@178 = ~Casque de Sentinelle~
+@179 = ~On ignore si ces casques magiques ont été créés par des prêtres de Heaum, dieu des gardiens, ou s'ils ont acquis ce nom pour une autre raison. Quoi qu'il en soit, ils sont très recherchés par les gardes et les sentinelles. Inutile de préciser que les bandits se sont aussi mis à en porter, confirmant ainsi le vieux proverbe "ce qui est bon pour l'un l'est aussi pour l'autre".
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Immunité à la Cécité et à la Surdité
+
+Bonus de classe d'armure : 1
+Protège contre les coups critiques
+Poids : 3
+Inutilisable par :
+ Barde
+ Mage
+ Moine
+ Voleur
+ Kensai~
+@180 = ~Casque Anti-Charmes~
+@181 = ~Comme son nom l'indique, le Casque Anti-Charmes protège celui qui le porte de toute tentative magique de manipulation de ses émotions. Souvent, des groupes de mercenaires de haut vol équipent leurs membres de tels casques afin de les protéger de toute ingérence extérieure lorsqu'ils exécutent leur devoir.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Immunité aux effets des Charmes
+
+Bonus de classe d'armure : 1
+Protège contre les coups critiques
+Poids : 3
+Inutilisable par :
+ Barde
+ Mage
+ Moine
+ Voleur
+ Kensai~
+@182 = ~Heaume de Défense~
+@183 = ~"Don de Paix"
+Prisé pour sa noble origine autant que pour ses capacités, le premier de ces heaumes n'était à l'origine qu'un simple présent. Aucun malheur ne menaçait, aucun dangereux ennemi n'était à vaincre ; il s'agissait juste du cadeau d'un ami à un autre ami. Il aurait très bien pu prendre la forme d'un grimoire ou encore d'une bonne bouteille de vin, mais les aventuriers sont des gens au sens pratique très développé. Par la suite, de par son efficacité en toute situation, d'innombrables variantes de ce heaume furent fabriquées. Ces heaumes ont participé à de nombreuses et glorieuses batailles depuis leur création, mais seule la vertu du premier spécimen semble avoir marqué les esprits.
+
+Ce heaume a été amélioré par le forgeron de Bérégost, Taërom Grondemarteau.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Jets de Sauvegarde : bonus de +1
+ Résistance à la Magie : bonus de +10 %
+
+Bonus de classe d'armure : 1
+Protège contre les coups critiques
+Poids : 3
+Inutilisable par :
+ Barde
+ Mage
+ Moine
+ Voleur
+ Kensai~
+@184 = ~Casque de Sentinelle~
+@185 = ~On ignore si ces casques magiques ont été créés par des prêtres de Heaum, dieu des gardiens, ou s'ils ont acquis ce nom pour une autre raison. Quoi qu'il en soit, ils sont très recherchés par les gardes et les sentinelles. Inutile de préciser que les bandits se sont aussi mis à en porter, confirmant ainsi le vieux proverbe "ce qui est bon pour l'un l'est aussi pour l'autre".
+
+Ce casque a été amélioré par le forgeron de Bérégost, Taërom Grondemarteau.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Immunité à la Cécité et à la Surdité
+ TAC0 : bonus de +1
+
+Bonus de classe d'armure : 1
+Protège contre les coups critiques
+Poids : 3
+Inutilisable par :
+ Barde
+ Mage
+ Moine
+ Voleur
+ Kensai~
+@186 = ~Casque Anti-Charmes~
+@187 = ~Comme son nom l'indique, le Casque Anti-Charmes protège celui qui le porte de toute tentative magique de manipulation de ses émotions. Souvent, des groupes de mercenaires de haut vol équipent leurs membres de tels casques afin de les protéger de toute ingérence extérieure lorsqu'ils exécutent leur devoir.
+
+Ce casque a été amélioré par le forgeron de Bérégost, Taërom Grondemarteau.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Immunité aux effets des Charmes
+ +1à la Sagesse
+
+Bonus de classe d'armure : 1
+Protège contre les coups critiques
+Poids : 3
+Inutilisable par :
+ Barde
+ Mage
+ Moine
+ Voleur
+ Kensai~
+@188 = ~Robe de Résistance au Froid~
+@189 = ~Les Robes de Résistance au Froid sont courantes dans la région de la Côte des Épées, surtout lorsqu'on se dirige vers le nord, du côté de Padhiver ou du Val de Bise. De nombreux jeunes mages en reçoivent une en cadeau de leur instructeur lorsqu'ils ont réussi leurs cinq années d'études.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Résistance au Froid : bonus de +40 %
+
+Poids : 3
+Utilisable par :
+ Mage~
+@190 = ~Robe de Résistance au Feu~
+@191 = ~En raison de la nature extrêmement instable de la plupart des types de magie, les Robes de Résistance au Feu ne sont pas rares chez les jeunes apprentis et leurs maîtres magiciens, particulièrement au sein des cercles et enclaves de Thay, où le culte de Kossuth, dieu élémentaire du feu, est très répandu.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Résistance au Feu : bonus de +40 %
+
+Poids : 3
+Utilisable par :
+ Mage~
+@192 = ~Robe de Résistance à l'Électricité~
+@193 = ~Bien qu'on les rencontre moins fréquemment que d'autres robes de mage, les Robes de Résistance à l'Électricité sont assez répandues. Certaines sont portées par des paranoïaques soucieux de se protéger contre les fortes tempêtes de montagne, mais la plupart sont portées par les mages afin de se protéger des attaques de leurs semblables.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Résistance à l'Électricité : bonus de +40 %
+
+Poids : 3
+Utilisable par :
+ Mage~
+@194 = ~Robe de Filou~
+@195 = ~Cette robe a été spécialement enchantée pour satisfaire les besoins éclectiques du mage multiclassé. Très populaire chez les voleurs-mages, la Robe de Filou a été enchantée pour protéger son porteur des lames et des poisons des ruelles sombres. Néanmoins, comme d'autres robes de ce type, elle ne peut être portée que par des étudiants des arcanes magiques.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Immunité aux Attaques Sournoises
+ Jets de Sauvegarde : bonus de +2 contre la Mort
+
+Poids : 4
+Utilisable par :
+ Mage~
+@196 = ~Robe de Voyageur~
+@197 = ~Cette robe de mage a été conçue pour les baroudeurs et les mages itinérants qui voyagent de ville en ville. Ses enchantements offrent non seulement une protection contre les flèches des bandits, mais permettent également au porteur de se déplacer, sans effort, à une vitesse exceptionnelle. Comme d'autres robes de ce type, la Robe de Voyageur ne peut être portée que par les mages.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Vitesse de Déplacement : bonus de +2
+ Classe d'Armure : bonus de +2 contre les Projectiles
+ Jets de Sauvegarde : bonus de +2 contre les Souffles
+
+Poids : 4
+Utilisable par :
+ Mage~
+@198 = ~Robe d'Aventurier~
+@199 = ~L'ancien Magicien Royal Vangerdahast, au service du Roi Azoun IV de Cormyr, était autrefois un aventurier accompli et très célèbre. La création de la Robe d'Aventurier est une des raisons qui expliquent sa notoriété dans les cercles de magiciens. Les mages ont toujours cherché un moyen de s'affranchir des limitations imposées par leur capacité à lancer des sorts profanes. Ces robes leur confèrent un avantage en cas de combat au corps à corps en absorbant une partie des dégâts subis.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+ Résistance aux Dégâts Physiques : bonus de +10 %
+
+Poids : 4
+Utilisable par :
+ Mage~
+@200 = ~La Robe d'Acier
+La Robe d'Acier a été créée par Mélicamp, l'apprenti magicien de Bérégost, spécialement pour remercier <CHARNAME> de l'avoir sauvé des crocs d'un loup sauvage après s'être accidentellement changé en poulet. Les recherches approfondies qu'a menées le jeune mage sur les diverses robes qu'on lui a données ont montré que, combinées ensemble, elles pouvaient donner un vêtement extraordinairement puissant.
+
+Ces lourds vêtements possèdent la résistance et la durabilité du métal elfe noir sans sa propriété de tomber en poussière à la lumière du soleil. Ils accordent aussi à leur propriétaire une résistance contre plusieurs des magies élémentaires utilisées de par les Royaumes, ce qui en fait un objet formidable recherché par les magiciens les plus puissants.
+
+PARAMETRES :
+
+Classe d'Armure : 6
+Jets de Sauvegarde : +1
+Résistance à la Magie : +20 %
+Résistance au Feu : +30 % 
+Résistance au Froid : +30 % 
+Résistance à l'Electricité : +30 % 
+Poids : 9
+Utilisable uniquement par :
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
+@201 = ~La Robe Mineure de Résistance
+La Robe Mineure de Résistance a été créée par Mélicamp, l'apprenti magicien de Bérégost, spécialement pour remercier <CHARNAME> de l'avoir sauvé des crocs d'un loup sauvage après s'être accidentellement changé en poulet. Les recherches approfondies qu'a menées le jeune mage sur les diverses robes qu'on lui a données ont montré que, combinées ensemble, elles pouvaient donner un vêtement extraordinairement puissant.
+
+Ces lourds vêtements possèdent la résistance et la durabilité du métal elfe noir sans sa propriété de tomber en poussière à la lumière du soleil. Ils accordent aussi à leur propriétaire une résistance contre certaines magies élémentaires utilisées de par les Royaumes.
+
+PARAMETRES :
+
+Classe d'Armure : 7
+Résistance au Feu : 30 % 
+Résistance au Froid : 30 % 
+Résistance à l'Electricité : 30 % 
+Poids : 9
+Utilisable uniquement par :
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
+@202 = ~La Robe de l'Erudit
+La Robe de l'Erudit a été créée par Mélicamp, l'apprenti magicien de Bérégost, spécialement pour remercier <CHARNAME> de l'avoir sauvé des crocs d'un loup sauvage après s'être accidentellement changé en poulet. Les recherches approfondies qu'a menées le jeune mage sur les diverses robes qu'on lui a données ont montré que, combinées ensemble, elles pouvaient donner un vêtement extraordinairement puissant.
+
+Ces lourds vêtements possèdent la résistance et la durabilité du métal elfe noir sans sa propriété de tomber en poussière à la lumière du soleil. Ils accordent aussi à leur propriétaire une résistance contre certaines magies élémentaires utilisées de par les Royaumes.
+
+PARAMETRES :
+
+Classe d'Armure : 7
+Jets de Sauvegarde : +1
+Résistance à la Magie : 10 %
+Vitesse de déplacement : bonus de +2
+Poids : 9
+Utilisable uniquement par :
+ Mage (monoclassé, à classes jumelées ou multiclassé)~
+@203 = ~Requiert le composant principal~
+@204 = ~Vos objets drows se sont brisés au contact de la lumière.~
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :" 

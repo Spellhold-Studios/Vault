@@ -1,8 +1,0 @@
-IF
-	!Global("TheVaultPortal","GLOBAL",4)
-THEN
-	RESPONSE #100
-		SetGlobal("TheVaultPortal","GLOBAL",4)
-END
-
-

@@ -2,7 +2,7 @@ BEGIN ~REDENTOR~
 
 IF WEIGHT #1 ~True()~ THEN BEGIN R0
   SAY @0
-  IF ~~ THEN DO ~CreateCreature("STALKE",[1945.1600],0) CreateCreature("STALKE",[1875.1800],0) CreateCreature("DOOMGU",[1775.1615],0) Enemy()~ EXIT
+  IF ~~ THEN DO ~CreateCreature("BGSTALKE",[1945.1600],0) CreateCreature("BGSTALKE",[1875.1800],0) CreateCreature("DOOMGU",[1775.1615],0) Enemy()~ EXIT
 END
 
 IF WEIGHT #0 ~InParty("EDWIN")~ THEN BEGIN R1
@@ -12,5 +12,5 @@ END
 
 IF ~~ THEN BEGIN R2
   SAY @2
-  IF ~~ THEN DO ~CreateCreature("STALKE",[1945.1600],0) CreateCreature("STALKE",[1875.1800],0) CreateCreature("DOOMGU",[1775.1615],0) Enemy()~ EXIT
+  IF ~~ THEN DO ~CreateCreature("BGSTALKE",[1945.1600],0) CreateCreature("BGSTALKE",[1875.1800],0) CreateCreature("DOOMGU",[1775.1615],0) Enemy()~ EXIT
 END
