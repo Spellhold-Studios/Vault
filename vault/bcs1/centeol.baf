@@ -1,0 +1,32 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		SmallWait(2)
+		StartDialog("centeo",[PC])
+END
+
+IF
+	!HPPercentLT(Myself,50)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #20
+		ForceSpell(FifthNearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+		CreateCreature("SPIDGI",[-1.-1],0) // Giant Spider
+	RESPONSE #80
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	HPPercentLT(Myself,50)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #40
+		ForceSpell(Myself,CLERIC_CURE_SERIOUS_WOUNDS)
+	RESPONSE #60
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+		ForceSpell(SixthNearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+

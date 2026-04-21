@@ -1,0 +1,17 @@
+IF
+	!Global("TheVaultPortal","GLOBAL",9)
+THEN
+	RESPONSE #100
+		SetGlobal("TheVaultPortal","GLOBAL",9)
+END
+
+IF
+	Global("ReturnNashQuest","GLOBAL",1)
+	!Dead("JC_THF01")
+THEN
+	RESPONSE #100
+		CreateCreature("JC_THF01",[1795.465],0)
+		SetGlobal("ReturnNashQuest","GLOBAL",2)
+END
+
+

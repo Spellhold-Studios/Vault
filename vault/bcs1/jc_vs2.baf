@@ -1,0 +1,10 @@
+IF
+	Detect([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Wait(3)
+		StartDialogueNoSet(LastSeenBy(Myself))
+END
+
+
